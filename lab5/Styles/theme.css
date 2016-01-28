@@ -1,0 +1,31 @@
+body{
+	font-family: "MS Sans Serif", Geneva, sans-serif;
+}
+
+header h1{
+	text-align: center;
+}
+
+#wrapper{
+	width:800px;
+	margin: 0 auto;
+}
+
+form{
+	margin-bottom: 20px;
+}
+
+#item-list{
+	float: left;
+}
+
+#description-frame{
+	float: right;
+	margin-right: 20px;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
