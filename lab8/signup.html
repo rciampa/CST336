@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Sign up form w/JQuery and Ajax</title>
+		<meta name="description" content="Signup for with Ajax">
+		<meta name="author" content="Richard Ciampa">
+
+		<script src="./Scripts/js/main.js" type="text/javascript"></script>
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<link type="text/css" href="./Styles/theme.css" rel="stylesheet"/>
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="icon" type="image/png" href="./Media/Images/csumb-logo-white.png" />
+
+		<script>
+			$(document).ready(function() {
+				//console.log( "ready!" );
+				$("#zipCode").change(function() {
+					getCity();
+				});
+				$("#state").change(function() {
+					getCounties();
+				});
+				$("#username").change(function() {
+					checkUsername();
+				});
+				$("#password").change(function() {
+					checkPassword();
+				});
+			});
+		</script>
+
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<h1>Signup</h1>
+			</header>
+			<div id="wrapper">
+				<form>
+					<fieldset>
+						<legend>
+							Sign Up
+						</legend>
+						First Name:
+						<input type="text" name="firstName">
+						<br />
+						Last name:
+						<input type="text" name="lastName" id="lastName">
+						<br />
+						Email:
+						<input type="text" name="email" id="email">
+						<br />
+						<br />
+						Zip Code:
+						<input type="text" name="zipCode" id="zipCode">
+						<br />
+						<br />
+						City: <span id="city"></span>
+						<br />
+						Latitude: <span id="latitude"></span>
+						<br />
+						Longitude: <span id="longitude"></span>
+						<br />
+						State:
+						<input type="text" name="state" id="state">
+						Use the two letter abbr.
+						<br>
+						County:
+						<select name="county" id="county">
+							<option>- Select One -</option>
+						</select>
+						<br>
+						Username:
+						<input type="text" name="username" id="username">
+						<span id="usernameError"></span>
+						<br />
+						Password:
+						<input type="password" name="password" id="password" />
+						<span id="passwordError"></span>
+						<br />
+						Type Password Again:
+						<input type="password" name="rePassword" id="rePassword" />
+						<br />
+						Phone Number:
+						<input type="text" name="phone" id="phone" />
+						<br/>
+						<input type="submit" value="Sign up!" />
+
+					</fieldset>
+
+				</form>
+			</div>
+
+			<footer>
+				<p>
+					&copy; Copyright  by Richard Ciampa
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
