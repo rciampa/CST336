@@ -1,0 +1,137 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a.navMenu{
+	padding-right: 10px;
+	color:green;
+	font-size: 1.3em;
+}
+
+a.navMenu:hover{
+	padding-right: 10px;
+	color:orange;
+	font-size: 1.3em;
+	transition: .7s
+}
+
+a.navMenu:active{
+	padding-right: 10px;
+	color:blue;
+	font-size: 1.39em;
+	transition: .2s
+}
+
+
+div.figures{
+	float: right;
+}
+
+.figCaptions{
+	text-align: center;
+}
+
+footer{
+	margin-top: 20px;
+	font-size: .7em;
+}
+
+img.footerLogoImage{
+	float:left;
+	margin-right:20px;
+	width: 70px;
+}
+
+/* home page */
+
+img.polutionImg{
+	height:150px;
+	width:200px;
+	border: 2px aqua solid;
+	border-radius: 20px; 
+}
+
+span.Rs{
+	color:green;
+}
+
+
+/* statistics page */
+table.gridView{
+	border: 1px black solid;
+	border-spacing: 0px;
+	margin: 20px 10px 0px 10px;
+}
+
+th.gvHeader{
+	text-align:left;
+	font-size: 1.3em;
+	background-color:#4DC324;
+}
+
+tr.topThreeRows{
+	background-color:#9AD4F1;
+}
+
+tr.poRows{
+	background-color:#CAFCE3;
+}
+
+td.centeredText{
+	text-align:center;
+	width: 60px;
+}
+
+td.poBlock{
+	text-align: center;
+	color: white;
+	background-color:#006934;
+	width: 100px;
+}
+
+nav.mediaNav{
+	float:left;
+}
+
+ul.mediaNavList{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+ul a{
+	display:block;
+	width:230px;
+	background-color:black;
+	color:white;
+	padding:5px;
+	text-decoration: none;
+	cursor: default;
+}
+
+ul a:hover{
+	background-color: navy;
+}
+
+img.whLogo{
+	width:80px;
+	float:left;
+	margin-right: 30px;
+	margin-left: 110px;
+}
+
+span.potusStatment{
+	font-size: 1em;
+	font-style: italic;
+}
+
+div.mediaContainer{
+	background-color:black;
+}
+
+div.mediaWindow{
+	height: auto;
+	width:560px;
+	z-index:4;
+	margin-left:240px;
+}
