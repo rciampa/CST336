@@ -1,0 +1,46 @@
+body {
+
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+div.container {
+	width: 100%;
+	/*border: 1px green solid;*/
+	height: 205px;
+}
+
+div.wordOne {
+	margin: 0 0 0 200px;
+}
+
+div.wordTwo {
+	width: 400px;
+	margin: 0 0 0 313px;
+}
+
+div.wordThree {
+	width: 1000px;
+	margin: 0 0 0 70px;
+}
+
+td.rainbow{
+	animation: myRainbow 8s infinite;
+	tansition-timing-function: ease-in-out;
+	animation-direction: alternate;
+}
+
+@keyframes myRainbow{
+	0%{background-color: red;}
+	10%{background-color: orange;}
+	26%{background-color: yellow;}
+	39%{background-color: green;}
+	54%{background-color: blue;}
+	67%{background-color: #4400FF;}
+	84%{background-color: #9900FF;}
+	100%{background-color: orange;}
+}
+
