@@ -1,0 +1,108 @@
+body {
+	background-image: url("../Media/Images/Orca-bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+div.container {
+	margin: 0 auto 0 auto;
+	width: 800px;
+}
+
+div.header {
+	background-color: rgba(0,0,0, .09);
+	border-radius: 15px;
+	width: 800px;
+	height: 90px;
+}
+
+.header p {
+	padding-left: 90px;
+}
+
+#classwork p{
+        padding:5px 20px 5px 20px;
+}
+
+#classwork hr{
+        margin-right:10px;
+}
+
+header, h1 {
+	padding-left: 90px;
+}
+
+img.profilePic {
+	border-radius: 15px;
+	float: left;
+}
+
+#classwork {
+	height: 636px;
+	overflow: auto;
+	margin-top: 30px;
+}
+
+#coursework {
+	border-radius: 15px;
+	padding: 0px;
+	background: url(../Media/Images/blue-wood.jpg);
+	color: white;
+}
+
+#labs {
+	border-radius: 5px;
+	color: white;
+	list-style-type: none;
+}
+
+#labs a {
+	color: white;
+}
+
+span.slo {
+	color: green;
+}
+
+div.work-item{
+	height: 40px;
+	overflow: hidden;
+	transition: height 1.5s ease;
+	margin-right: 11px;
+}
+
+div.work-item:hover{
+	height: 210px;
+	background-color: rgba(88,122,170, .49);
+	color: white;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width:1000px){
+        /* styles for browsers larger than 960px; */
+       body {
+       		background-image: url("../Media/Images/orca-bg-1366x772.png");
+       		background-repeat: no-repeat;
+       		background-attachment: fixed;
+       		}
+       
+}
+
+@media only screen and (min-width:1400px){
+/* styles for browsers larger than 1440px; */
+       body {
+       		background-image: url("../Media/Images/orca-bg-1920x1085.png");
+       		background-repeat: no-repeat;
+       		background-attachment: fixed;
+       		}
+}
+
+@media only screen and (min-width:2000px){
+/* for sumo sized (mac) screens */
+       body {
+       		background-image: url("../Media/Images/Orca-bg.jpg");
+       		background-repeat: no-repeat;
+       		background-attachment: fixed;
+       		}
+}

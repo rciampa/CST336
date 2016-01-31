@@ -1,0 +1,16 @@
+
+
+/* Common footer for CST336 */
+footer{
+	margin-top: 10px;
+	font-size: .7em;
+	width: 500px;
+	margin: 0 auto;
+	color: white;
+}
+
+img.footerLogoImage{
+	float:left;
+	margin-right:20px;
+	width: 70px;
+}
