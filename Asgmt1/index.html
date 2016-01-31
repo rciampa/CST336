@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author"  content="Richard Ciampa" />
+		<meta name="description" content="" />
+
+		<title>SDLC: Home</title>
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<link  rel="icon" type="image/png" href="./Media/Images/csumb-logo-white.png"/>
+
+		<!-- Styles and Themes -->
+		<link rel="stylesheet" type="text/css" href="./Styles/theme.css">
+		<link rel="stylesheet" type="text/css" href="./Styles/theme-common.css" />
+		<link rel="stylesheet" type="text/css" href="./Styles/jquery-ui.css">
+
+		<!-- Script files or CDN's -->
+		<script src="./Scripts/js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./Scripts/js/jquery-2.1.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+		<!-- local styles -->
+		<style>
+			div.container {
+				margin: 0 auto 0 auto;
+				width: 900px;
+			}
+
+			h1 {
+				text-align: center;
+				color: blue;
+			}
+		</style>
+
+		<!-- Local Scripts -->
+		<script>
+			$(function() {
+				$("#menu").menu();
+			});
+		</script>
+
+	</head>
+	<!-- Body of the webpage -->
+	<body>
+		<!-- Page frame div -->
+		<div class="container">
+
+			<!-- Header section -->
+			<header>
+				<div id="header">
+					<h1 id="site-title">Software Developmet Life Cycle</h1>
+				</div>
+			</header>
+
+			<!-- Menu -->
+			<ul id="menu">
+				<li>
+					<a href="index.html" title="return to home page">Home</a>
+				</li>
+				<li>
+					<a href="methodologies.html" title="Agile, Scrum & Waterfall">Methodologies</a>
+				</li>
+				<li>
+					<a href="tooling.html" title="project managment">Tooling</a>
+				</li>
+				<li>
+					<a href="tutorials.html" title="video tutorials">Tutorials</a>
+				</li>
+			</ul>
+
+			<!-- Page body content -->
+			<div id="content">
+				<h1 id="title-overview">SDLC: Overview</h1>
+
+				<p>
+					The Software Development Life Cycle or sometimes called the Systems Development Life Cycle is a
+					structured method of developing complex software and system designs. The software development life
+					cycle refers to particular deliverables and describes a general documentation guideline.
+				</p>
+
+				<figure id="sdlc-cycle-fig1">
+					<a href="./Media/Images/sdlc-cycle.jpg" target="_blank" title="click to see larger image"> <img src="./Media/Images/sdlc-cycle.jpg" alt="The SDLC circle of development stages. A segmented
+					circle that showes each stage in the cycle."/> </a>
+					<figcaption>
+						Figure 1: SDLC Stages of development
+					</figcaption>
+				</figure>
+
+				<p>
+					Since the software development life cycle was implemented in the 1960's as the SDM (Software Development
+					method) many methodologies have been developed that are successors to the original SDLC design pattern.
+					While many such methodologies exist today, the most popular are subsets that use the original Software
+					Development Life Cycle documentation artifacts and have commercial tooling support.
+				</p>
+
+				<p>
+					Tooling support in terms of software development can be found by many independent software vendors that
+					provide common off the shelf packages. Tooling support can be as simple as a word processor for document
+					artifact deliverables or as complex as cloud based build services for distributed software development
+					teams.
+				</p>
+
+				<p>
+					The most popular methodologies used in today's feature packed software tools and integrated development
+					environments are Scrum, Agile or Agile Unified Process (AUP), Rational Unified Process (RUP) Extreme
+					Programming (XP) and Rapid Application Development (RAD). Many of these methodologies have common
+					development stages and all are used for requirements analysis, concept, prototyping, development, testing,
+					deployment and support in varying forms.
+				</p>
+				<a class="page-reference" href="https://en.wikipedia.org/wiki/Software_development_process" target="_blank"
+				title="click to visit Wikipedia">(Wikipedia, August 2015)</a>
+			</div>
+
+			<!-- Footer section -->
+			<footer>
+				<hr />
+				<figure >
+					<img class="footerLogoImage" src="./Media/Images/csumb-logo.png"
+					alt="Image of Otter and first letters of the university, which are M & B" />
+				</figure>
+				This site is ONLY intended as an educational tool for building HTML pages. The site content
+				is strictly sample text only. Richard Ciampa &copy; All Rights reserved
+			</footer>
+
+		</div>
+		<!-- End of container -->
+	</body>
+</html>

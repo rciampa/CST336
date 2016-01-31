@@ -1,0 +1,217 @@
+body{
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color: #FAFFFA;
+}
+
+/* Clearfix for the menu */
+.ui-menu:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.ui-menu .ui-menu-item {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#menu{
+	width:auto;
+	margin: 0 auto;
+}
+
+#site-title{
+	color: #2191C0;
+}
+
+#title-overview{
+	background-color: #2191C0;
+	color:white;
+	border-radius: 5px;
+}
+
+a.page-reference{
+	font-size:smaller;
+}
+
+/* Home */
+#sdlc-cycle-fig1{
+	float: right;
+}
+
+#sdlc-cycle-fig1 img{
+	width:200px;
+	margin-left:0px;
+}
+
+#sdlc-cycle-fig1 figcaption{
+	font-size: .7em;
+	text-align: center;
+}
+
+#content p{
+ padding: 0 8px 0 8px;	
+}
+
+
+/* ---------------- Methodologies ----------------- */
+
+/* Waterfall */
+#waterfall-phases-fig2{
+	float:right;
+}
+
+#waterfall-phases-fig2 img{
+	width:150px;
+}
+
+#waterfall-phases-fig2 figcaption{
+	font-size: .7em;
+	text-align: center;
+}
+
+/* Rapid App Development */
+#rad-method-fig3{
+	float:right;
+}
+
+#rad-method-fig3 img{
+	width:250px;
+}
+
+#rad-method-fig3 figcaption{
+	font-size: .7em;
+	text-align: center;
+}
+
+/* Scrum */
+#scrum-method-fig5{
+	float:none;
+}
+
+#scrum-method-fig5 img{
+	width: 350px;
+	margin: 0 auto 0 200px;
+}
+
+#scrum-method-fig5 figcaption{
+	font-size: .7em;
+	text-align: center;
+}
+
+/* Agile */
+#agile-method-fig6{
+	float:none;
+}
+
+#agile-method-fig6 img{
+	width: 350px;
+	margin: 0 auto 0 200px;
+}
+
+#agile-method-fig6 figcaption{
+	font-size: .7em;
+	text-align: center;
+}
+
+
+
+#accordion{
+	margin-top:20px;
+}
+
+
+#tabs{
+	margin-top:20px;
+}
+
+#method-compare{
+	border: 1px #2191C0 solid;
+	margin: 0 auto;
+}
+
+#method-compare th{
+	padding: 1px 5px 0px 5px;
+}
+
+#method-compare th, td{
+	text-align: center;
+}
+
+img.check-green{
+	width: 20px;
+}
+
+#method-comp-table td{
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+/* ----------------- Tooling --------------- */
+#ms-project{
+	float:none;
+}
+
+#ms-project  a img{
+	margin-left: 160px
+}
+
+#ms-project figcaption{
+	font-size: .7em;
+	text-align: center;
+}
+
+#vs-usecase-uml{
+	float:right;
+}
+
+#vs-usecase-uml a img{
+	width:400px;
+}
+
+#tfs-code{
+	float:right;
+}
+
+#tfs-code img{
+	width: 400px;
+}
+
+#tfs-code figcaption{
+	font-size: .7em;
+	text-align: center;
+}
+
+/* ---------------- Tutorials ---------------- */
+#media-container{
+	background-color:#2191C0;
+	border-radius: 5px;
+}
+
+#menu-tutorial{
+    list-style-type: none;
+	margin-left:40px;
+	padding:0;
+	border-radius: 5px;
+	float:left;
+}
+
+#menu-tutorial a{
+	display:block;
+	width:230px;
+	background-color:black;
+	color:white;
+	padding:5px;
+	text-decoration: none;
+	cursor: default;
+}
+
+#menu-tutorial a:hover{
+	background-color:#6eac2c;
+}

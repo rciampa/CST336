@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>SDLC: Methodologies</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="Richard Ciampa">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<title>SDLC: Home</title>
+
+		<link  rel="icon" type="image/png" href="./Media/Images/csumb-logo-white.png"/>
+
+		<!-- Styles and Themes -->
+		<link rel="stylesheet" type="text/css" href="./Styles/theme.css">
+		<link rel="stylesheet" type="text/css" href="./Styles/theme-common.css" />
+		<link rel="stylesheet" type="text/css" href="./Styles/jquery-ui.css">
+
+		<!-- Script files or CDN's -->
+		<script src="./Scripts/js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./Scripts/js/jquery-2.1.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+		<!-- local styles -->
+		<style>
+			div.container {
+				margin: 0 auto 0 auto;
+				width: 900px;
+			}
+
+			h1 {
+				text-align: center;
+				color: blue;
+			}
+		</style>
+
+		<!-- Local Scripts -->
+		<script>
+			$(function() {
+				$("#menu").menu();
+				$("#tabs").tabs();
+			});
+		</script>
+
+	</head>
+
+	<body>
+		<!-- Page frame div -->
+		<div class="container">
+
+			<!-- Header section -->
+			<header>
+				<div id="header">
+					<h1 id="site-title">Software Developmet Life Cycle</h1>
+				</div>
+			</header>
+
+			<!-- Menu -->
+			<ul id="menu">
+				<li>
+					<a href="index.html" title="return to home page">Home</a>
+				</li>
+				<li>
+					<a href="methodologies.html" title="Agile, Scrum & Waterfall">Methodologies</a>
+				</li>
+				<li>
+					<a href="tooling.html" title="project managment">Tooling</a>
+				</li>
+				<li>
+					<a href="tutorials.html" title="video tutorials">Tutorials</a>
+				</li>
+			</ul>
+
+			<!-- Body content -->
+			<h1 id="title-overview">Methodologies</h1>
+			<div id="tabs">
+				<ul>
+					<li>
+						<a href="#tabs-1">Waterfall</a>
+					</li>
+					<li>
+						<a href="#tabs-2">Rapid Application Development</a>
+					</li>
+					<li>
+						<a href="#tabs-3">Scrum</a>
+					</li>
+					<li>
+						<a href="#tabs-4">Agile</a>
+					</li>
+					<li>
+						<a href="#tabs-5">Comparison</a>
+					</li>
+				</ul>
+				<div id="tabs-1">
+					<p>
+						The Waterfall methodology is a sequential process that utilizes a series of stages in the process
+						of software and systems development. In each stage the SDLC is adhered to by document artifacts
+						and deliverables within each stage. The Waterfall method is a first generation methodology used
+						in the Software Development Life Cycle.
+					</p>
+
+					<figure id="waterfall-phases-fig2">
+						<a href="./Media/Images/Waterfall_model.svg.png" target="_blank"
+						title="click to view larger image"> <img src="./Media/Images/Waterfall_model.svg.png"
+						alt="The waterfall method, a depiction of the five sequential phases"/> </a>
+						<figcaption>
+							Figure 2: The Waterfall methodology phases
+						</figcaption>
+					</figure>
+
+					<p>
+						The Waterfall methodology has the following stages:
+						<ul>
+							<li>
+								Requirements Analysis
+							</li>
+							<li>
+								Analysis of business processes
+							</li>
+							<li>
+								Design and Architecture
+							</li>
+							<li>
+								Coding, Development and Integration
+							</li>
+							<li>
+								Testing and Debugging
+							</li>
+							<li>
+								Operational Deployment, Installation, Migration and Maintenance
+							</li>
+						</ul>
+
+					</p>
+					<a class="page-reference" href="https://en.wikipedia.org/wiki/Waterfall_model" target="_blank"
+					title="click to visit Wikipedia">(Wikipedia, August 2015)</a>
+				</div>
+				<div id="tabs-2">
+					<figure id="rad-method-fig3">
+						<a href="./Media/Images/rapid-appliation-development.png" target="_blank"
+						title="click to view larger image"> <img src="./Media/Images/rapid-appliation-development.png"
+						alt="The rapid application development process" /> </a>
+						<figcaption>
+							Figure 3: Rapid Application Development Method
+						</figcaption>
+					</figure>
+					<p>
+						The Rapid Application Development methodology, not to be confused with RAD tools is predecessor
+						to the majority of the latest software development methodologies. It breaks from the traditional
+						Waterfall method in an attempt to reduce and mitigate developmental risk factors.
+					</p>
+					<p>
+						The approach to users requirements and testing is one of the major differences in Rapid Application
+						development. In this methodology users are better able to see business logic and usability issues
+						in the development process. The core difference being that RAD provides a prototype which users are
+						able to test and provide feedback on. These are major changes from the Waterfall method which simply
+						has users sign off on requirements and test the software product in beta just prior to the production
+						release.
+					</p>
+					<a class="page-reference" href="https://en.wikipedia.org/wiki/Rapid_application_development" target="_blank"
+					title="click to visit Wikipedia">(Wikipedia, August 2015)</a>
+				</div>
+				<div id="tabs-3">
+					<p>
+						Scrum is an iterative and incremental software development process. In this method the entire development
+						team works through each stage of the process and iteration or sprint. The largest difference that we
+						see in the Scrum method compared to the original SDM and early methods like Waterfall is that each
+						phase of the process is iterative and incremental.
+					</p>
+
+					<figure id="scrum-method-fig5">
+						<a href="./Media/Images/Scrum_process.svg.png" target="_blank"
+						title="click to view larger image"> <img src="./Media/Images/Scrum_process.svg.png"
+						alt="Scrum application development process" /> </a>
+						<figcaption>
+							Figure 4: Scrum Application Development Method
+						</figcaption>
+					</figure>
+
+					<p>
+						Since Scrum is a latest generation methodology, there exist sophisticated tooling support and converged
+						toolsets. The requirements process is ongoing in each sprint and prototypes of software are tested in
+						each incremental release. As you can see from figure four above the iteration can be relatively short, in
+						some cases only twenty four hours long. This is where the word "sprint" comes from.
+					</p>
+					<p>
+						Scrum is logically oriented in the concept of how parts of the SDLC fit into a sprint. In Scrum
+						we use the product backlog to continuously add requirements, features and bug fixes. The backlog is
+						then used to generate Work Breakdown Structure within each sprint. Once the a sprint backlog has
+						been generated, the sprint is scheduled and work begins.
+					</p>
+					<a class="page-reference" href="https://en.wikipedia.org/wiki/Scrum_%28software_development%29" target="_blank"
+					title="click to visit Wikipedia">(Wikipedia, September 2015)</a>
+				</div>
+				<div id="tabs-4">
+					<p>
+						Agile software project management is considered the most flexible of the methodologies. While
+						Scrum is also an agile process the core difference in Agile software development is the evolution
+						of a feature-set and software product while in development.
+					</p>
+					<p>
+						There are many overlapping aspects of Scrum and Agile methods beside the fact that they are both
+						agile methods. The Agile method is known for resource autonomy. This is the ultimate in distributed
+						development. Resources like project managers, systems analysts, developers and testers are usually
+						geographically dispersed.
+					</p>
+					<p>
+						In a pure Agile development method, project managers may fly from a home office to a site for milestone updates.
+						You can have a group of developers that are completely autonomous and as long as they have an internet
+						connection they are able to contribute to the Agile process. The emphasis in Agile is that dispersed
+						teams and individual experiences outside a common office help evolve a project and software product. 
+					</p>
+					<p>
+						Since the Agile method is almost always a distributed team effort Agile requires some of the most
+						sophisticated converged toolsets in the industry. Document artifacts in the SDLC specification are
+						deeply integrated into the development and project management toolset. 
+					</p>
+				</div>
+				<div id=tabs-5>
+					<p>
+						<table id="method-compare">
+							<tr>
+								<th colspan="6">Methodology Comparison</th>
+							</tr>
+							<tr id="method-comp-table">
+								<td></td>
+								<td>Client Interative</td>
+								<td>CASE Tools</td>
+								<td>Iterative</td>
+								<td>Prototyping</td>
+								<td>Converged Tools</td>
+							</tr>
+							<tr>
+								<td>Waterfall</td>
+								<td></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>RAD</td>
+								<td></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Scrum</td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+							</tr>
+							<tr>
+								<td>Agile</td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+								<td><img class="check-green" src="./Media/Images/check-mark-hi.png"/></td>
+							</tr>
+						</table>
+					</p>
+				</div>
+			</div>
+
+			<!-- Footer section -->
+			<footer>
+				<hr />
+				<figure >
+					<img class="footerLogoImage" src="./Media/Images/csumb-logo.png"
+					alt="Image of Otter and first letters of the university, which are M & B" />
+				</figure>
+				This site is ONLY intended as an educational tool for building HTML pages. The site content
+				is strictly sample text only. Richard Ciampa &copy; All Rights reserved
+			</footer>
+
+		</div>
+		<!-- End of container -->
+	</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author"  content="Richard Ciampa" />
+		<meta name="description" content="" />
+
+		<title>SDLC: Tutorials</title>
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<link  rel="icon" type="image/png" href="./Media/Images/csumb-logo-white.png"/>
+
+		<!-- Styles and Themes -->
+		<link rel="stylesheet" type="text/css" href="./Styles/theme.css">
+		<link rel="stylesheet" type="text/css" href="./Styles/theme-common.css" />
+		<link rel="stylesheet" type="text/css" href="./Styles/jquery-ui.css">
+
+		<!-- Script files or CDN's -->
+		<script src="./Scripts/js/site.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./Scripts/js/jquery-2.1.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+		<!-- local styles -->
+		<style>
+			div.container {
+				margin: 0 auto 0 auto;
+				width: 900px;
+			}
+
+			h1 {
+				text-align: center;
+				color: blue;
+			}
+		</style>
+
+		<!-- Local Scripts -->
+		<script>
+			$(function() {
+				$("#menu").menu();
+			});
+		</script>
+
+	</head>
+	<!-- Body of the webpage -->
+	<body>
+		<!-- Page frame div -->
+		<div class="container">
+
+			<!-- Header section -->
+			<header>
+				<div id="header">
+					<h1 id="site-title">Software Developmet Life Cycle</h1>
+				</div>
+			</header>
+
+			<!-- Menu -->
+			<ul id="menu">
+				<li>
+					<a href="index.html" title="return to home page">Home</a>
+				</li>
+				<li>
+					<a href="methodologies.html" title="Agile, Scrum & Waterfall">Methodologies</a>
+				</li>
+				<li>
+					<a href="tooling.html" title="project managment">Tooling</a>
+				</li>
+				<li>
+					<a href="tutorials.html" title="video tutorials">Tutorials</a>
+				</li>
+			</ul>
+
+			<!-- Page body content -->
+			<div id="content">
+				<h1 id="title-overview">SDLC: Tutorials</h1>
+
+				<!-- Media section -->
+				<div id="media-container" class="mediaContainer">
+					<ul id="menu-tutorial">
+						<li>
+							<a onclick="updateMediaWindow('https://www.youtube.com/embed/OkC7HKtiZC0?list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc')" >Unified Modeling</a>
+						</li>
+						<li>
+							<a onclick="updateMediaWindow('https://www.youtube.com/embed/ZFPy5XvxG0g?list=PLzj7TwUeMQ3i1QJ6-Z91KRjFg5dzacD1O')">Microsoft Project</a>
+						</li>
+						<li>
+							<a onclick="updateMediaWindow('https://www.youtube.com/embed/OVqJJxC9IRU?list=PLhKaHIku6jSdo_qtXGLFDaVxGw2bdSGXi')">Visual Studio Online</a>
+						</li>
+						<li>
+							<a onclick="updateMediaWindow('https://www.youtube.com/embed/AfaD0LsTl5I')">Agile Planning (TFS)</a>
+						</li>
+						<li>
+							<a onclick="updateMediaWindow('https://www.youtube.com/embed/9MRbY8RqQdU')">Scrum Planning (TFS)</a>
+						</li>
+					</ul>
+
+					<iframe id="tubePlayer" width="560" height="315" src="https://www.youtube.com/embed/OkC7HKtiZC0?list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc"
+					frameborder="0" allowfullscreen></iframe>
+				</div>
+				<!-- Footer section -->
+				<footer>
+					<hr />
+					<figure >
+						<img class="footerLogoImage" src="./Media/Images/csumb-logo.png"
+						alt="Image of Otter and first letters of the university, which are M & B" />
+					</figure>
+					This site is ONLY intended as an educational tool for building HTML pages. The site content
+					is strictly sample text only. Richard Ciampa &copy; All Rights reserved
+				</footer>
+
+			</div>
+		</div><!-- End of container -->
+	</body>
+</html>
