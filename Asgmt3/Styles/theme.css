@@ -1,0 +1,64 @@
+body{
+	background-color: black;
+}
+
+#page-container{
+	color: white;
+	width: 740px;
+	margin:0 auto;
+}
+
+#page-container h1{
+	text-align: center;
+}
+
+form{
+	width: 380px;
+	margin:0 auto;
+	padding:10px;
+}
+
+form input{
+	margin-bottom:10px;
+}
+
+input[type="text"]{
+	width: 65px;
+}
+
+#rec{
+	color: red;
+}
+
+#vrange{
+	margin-left:70px;
+}
+
+#wrapper{
+	border-radius: 10px;
+	width: 700px;
+	margin:0 auto 30px auto;
+	padding: 5px;
+	background-color: rgba(21,14,150, .57);
+}
+
+#conversionUnits{
+	margin-left: 10px;
+}
+
+#converted{
+	text-align: center;
+}
+
+#converted span{
+	font-size: 3em;
+}
+
+#torque-degrade{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#torque-degrade th,td{
+	padding: 5px;
+}
